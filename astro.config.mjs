@@ -9,5 +9,9 @@ export default defineConfig({
   adapter: node({
     mode: "standalone"
   }),
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  site: {
+    url: "/",
+    base: "/pruebabooks.github.io", // Ruta base de tu sitio web
+  }
 });
