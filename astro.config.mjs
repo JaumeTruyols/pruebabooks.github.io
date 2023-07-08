@@ -10,8 +10,5 @@ export default defineConfig({
     mode: "standalone"
   }),
   integrations: [tailwind()],
-  site: {
-    url: "/",
-    base: "/pruebabooks.github.io", // Ruta base de tu sitio web
-  }
+  site: 'https://jaumetruyols.github.io/pruebabooks.github.io/'
 });
