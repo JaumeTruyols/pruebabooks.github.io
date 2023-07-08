@@ -8,5 +8,6 @@ export default defineConfig({
     mode: "standalone"
   }),
   integrations: [tailwind()],
-site: 'https://jaumetruyols.github.io/pruebabooks.github.io/'
+site: 'https://jaumetruyols.github.io/pruebabooks.github.io/',
+  base: '/src/pages/'
 });
